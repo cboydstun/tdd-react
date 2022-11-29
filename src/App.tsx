@@ -1,13 +1,7 @@
-import './App.css';
+import Crypto from "./components/Crypto"
 
-import Link from './components/Link'
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Link />
-    </div>
-  );
+    <><Crypto /></>
+  )
 }
-
-export default App;
